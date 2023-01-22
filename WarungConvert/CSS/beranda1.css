@@ -1,0 +1,210 @@
+*{
+    margin: auto;
+    }
+    
+    @media only screen and (max-width: 1920px) {
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    .head {
+        display: flex;
+        color: #fffdde;
+        position: fixed;
+        right: 0;
+        left: 0;
+        justify-content: space-between;
+        background-color: #663BC1;
+        align-items: center;
+        z-index: 10;    
+    }
+    
+    .head ul li {
+        list-style: none;
+        float: left;
+        padding: 20px 30px;
+    }
+    
+    .head ul {
+        margin-right: -300px;
+        
+    }
+    
+    .head ul li a {
+        color: #fffdde;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .head ul li a:hover {
+        color: rgb(96, 230, 185);
+        margin-bottom: 6px;
+        border-width: 0 0 3px;
+        border-style: solid;
+        padding-bottom: 18px;
+    }
+    
+    .head-left {
+        margin-left: 20px;
+    }
+    
+    .head-left h1 {
+        letter-spacing: 2px;
+        font-style: italic;
+    }
+      /* HOME */
+    #beranda {
+        background-color: white;
+        width : auto;
+        height: auto;
+        display: block;
+        padding-top: 50px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .selamat{
+        font-size: 40px;
+        padding-top: 50px;
+        margin-bottom: 50px;
+        color: #663BC1;
+    }
+    
+    img{
+        width: 500px;
+        float: right;
+    }  
+    
+    #beranda p{
+        color : #6f6c6c;
+        font-size: 18px;
+        margin-bottom : 5px;
+        text-align: justify;
+    }
+    
+    .tulisan{
+        padding-top:100px;
+        padding-bottom:150px;   
+    }
+    
+    
+      /* Konversi */
+    #konversi{
+        margin-top: 50px;
+        padding:0px 80px;
+        width: auto;
+        height: auto;
+    }
+    
+    h2{
+        font-size: 28px;;
+        padding: 20px 0px;
+    }
+    
+    .konversi{
+        margin-top: 20px;
+        margin-bottom: 150px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .konversiKonten{
+        text-align: center;
+        border: 1px solid #663BC1;
+        border-radius: 20px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .xl{
+        align-items: center;
+        width: 150px;
+        padding: 30px 25px 52px 25px;
+    }
+    
+    .indosat{
+        align-items: center;
+        width: 150px;
+        padding: 50px 25px 87px 25px;
+    
+    }
+    
+    .tri{
+        align-items: center;
+        width: 150px;
+        padding: 25px;
+    }
+    
+    .telkomsel{
+        align-items: center;
+        width: 150px;
+        padding: 80px 25px 88px 25px;
+    }
+    
+    h3{
+        color: red;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    
+    input{
+        background-color: #663BC1;
+        padding: 10px;
+        width: 150px;
+        border: none;
+        border-radius: 20px;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        box-shadow: 2px 5px 2px rgba(0,0,0,0.7);
+    }
+    
+        input:hover{
+            background-color: #b99ff2;
+            color: #3c1b84;
+            position: relative;
+            top: 5px;
+            cursor: pointer;
+        }
+    
+    
+      /* Tutorial */
+    #tutorial{
+        padding:30px 80px;
+        width: auto;
+        height: auto;
+        background-color: #663BC1;
+    }
+    
+    #tutorial h2{
+        color: white;
+    }
+    
+    #tutorial img{
+        float: none;
+        width: 100%;
+    }
+    
+    
+      /* FOOTER */
+    .footer{
+        background-color: #442A79;
+        width: auto;
+        height: 30px;
+        text-align: center; 
+        padding: 10px;
+    }
+    .footer p{
+        color: #A6A6A6;
+        font-size: 14px;
+        padding-top: 5px;
+    }
+    }
+    
+    
+    

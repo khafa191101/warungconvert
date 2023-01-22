@@ -1,0 +1,175 @@
+*{
+    margin: auto;
+}
+
+@media only screen and (max-width: 1920px) {
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #663BC1;
+        text-align: center;
+    }
+
+    html{
+        scroll-behavior: smooth;    
+    }
+
+
+    /* container head */
+    .navBar{
+        margin-top: 15px;
+        margin-bottom: 15px ;
+        float: right;
+        padding: 10px 15px;
+        width: 100%;
+    }
+
+    li{
+        display: inline-block;
+        list-style-type: none;
+        float: right;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 80px;
+        cursor: pointer;
+        padding:10px 15px;
+        border-radius: 20px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+    }
+
+    li:hover{
+        /* display: inline-block; */
+        background-color: #34127b;
+        font-weight: bold ;
+    }
+
+    /* h1 */
+    h1{
+        top: -20px;
+        font-size: 40px;
+        margin-bottom: 20px;
+        color: white;
+    }
+
+    /* nama dan nomor telepon */
+    h2{
+        font-size: 22px;
+        margin-bottom: 20px;
+        color: white;
+    }
+
+    .judul{
+        font-size: 50PX;
+        margin-bottom: 30px;
+    }
+
+    .nama{
+        font-size: 40PX;
+    }
+
+    /* Tombol */
+    .button a{
+        width: 70px;
+        background-color: #34127b;
+        padding: 10px 15px;
+        border-radius: 15px;
+    }
+
+    .button a:hover{
+        width: 70px;
+        background-color: #b695fd;
+        color: #34127b;
+        padding: 10px 15px;
+        border-radius: 15px;
+    }
+    
+    /* ilustrasi */
+    .riwayat{
+        width: 120px;
+        position: relative;
+        top: 50px;
+        
+    }
+
+    /* Container */
+    .content{
+        text-align: left;
+        width: 100%;
+        border-top-left-radius :50px;
+        border-top-right-radius : 50px;
+        background-color: white;
+        padding-top: 70px;
+        padding-bottom: 50px;
+        min-height: 350px;
+    }
+
+    /* Label */
+    label{
+        font-size: 18px;
+        color: grey;
+        text-align: left;
+        margin-left: 150px;
+
+    }
+
+    /* Input Field */
+    input{
+        margin: 10px 0px 10px 150px;
+        width: 175px;
+        height: 30px;
+        border-radius: 15px;
+        font-size: 18px;
+        color: grey;
+        padding-left: 10px;
+        border: 1px solid grey;
+    }
+
+    input:focus{
+        outline: 1px solid #663BC1;
+    }
+
+    /* Tabel */
+    table{
+        text-align: center;
+        background-color: white;
+        font-size: 20px;
+    }
+
+    th{
+        background-color: #663BC1;
+        padding: 15px 150px 15px 150px;
+        color: white;
+    }
+
+    td{
+        background-color: #E8E8E8;
+        padding: 15px 100px 15px 100px;
+        color: black;
+    }
+
+    /* Footer */
+    footer{
+        background-color: #442A79;
+        width: auto;
+        height: 30px;
+        text-align: center; 
+        padding: 10px;
+    }
+    footer p{
+        color: #A6A6A6;
+        font-size: 14px;
+        padding-top: 5px;
+    }
+    .hapus{
+        color:white;
+    }
+    button{
+        background-color: #663BC1;
+    }
+}
+

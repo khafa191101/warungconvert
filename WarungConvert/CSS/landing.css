@@ -1,0 +1,215 @@
+body {
+    font-family: "Quicksand", sans-serif;
+    background-color: #663BC1;
+    min-height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.head {
+    display: flex;
+    color: #fffdde;
+    position: fixed;
+    right: 0;
+    left: 0;
+    justify-content: space-between;
+    background-color: #663BC1;
+    align-items: center;
+    z-index: 10;    
+}
+
+.head ul li {
+    list-style: none;
+    float: left;
+    padding: 20px 30px;
+}
+
+.head ul {
+    margin-right: 20px;
+}
+
+.head ul li a {
+    color: #fffdde;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.head ul li a:hover {
+    color: rgb(96, 230, 185);
+    margin-bottom: 6px;
+    border-width: 0 0 3px;
+    border-style: solid;
+    padding-bottom: 18px;
+}
+
+.head-left {
+    margin-left: 20px;
+}
+
+.head-left h1 {
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+
+.face{
+    display: flex;
+    background-color: #ffffff;
+    padding-top: 170px;
+    padding-bottom: 100px;
+}
+.kata{
+    text-align: center;
+    margin: auto;
+    padding: 10px 80px;
+    color: #000000;
+}
+
+.kata img{
+    margin-bottom: 50px;
+}
+
+.image{
+    margin: auto;
+}
+
+
+.button1 :hover{ 
+    background-color: #f8f8f8;
+}
+.button1 h1{
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #3120E0;
+}
+
+footer {
+    text-align: center;
+    color: #ffffff;
+    padding: 80px;
+    background-color: #14393f;
+}
+
+#apaitu{
+    padding-top: 100px;
+    padding-left: 50px;
+    color: #663BC1;
+    background-color: #ffffff;
+    
+}
+
+#apaitu h1{
+    border-color: #663BC1;
+    border-width: 0 0 4px 0;
+    border-style: solid;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.isi{
+    padding: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+    text-indent: 2px;
+    padding-bottom: 100px;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.isi .gambar{
+    margin-right: 200px;
+    margin-left: 100px;
+}
+
+.profider{
+    background-color: #ffffff;
+    padding: 200px;
+    
+}
+
+.profider h1{
+    text-align: center;
+    margin-bottom: 100px;
+    color: #663BC1;
+    border-color: #663BC1;
+    border-width: 0 0 4px 0;
+    border-style: solid;
+    padding-bottom: 50px;
+}
+
+.slideshow-container {
+  max-width: 400px;
+  min-width: 100px;
+  position: relative;
+  margin: auto;
+  background-color: #ffffff;
+  padding: auto ;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 5px;
+  user-select: none;
+  background-color: rgba(165, 165, 165, 0.8);
+}
+
+
+.next {
+  right: 0;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #663BC1;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

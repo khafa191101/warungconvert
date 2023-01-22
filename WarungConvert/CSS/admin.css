@@ -1,0 +1,190 @@
+*{
+    margin: auto;
+}
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #663BC1;
+        text-align: center;
+    }
+
+    /* Judul utama */
+    h1{
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        align-content: center;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }   
+
+    /* Lingkaran */
+    .lingkaran{
+        position: relative;
+        top: 70px;
+        background-color: #E8E8E8;
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        margin-top: -50px;
+        
+    }
+
+
+    /* ilustrasi */
+    .admin{
+        width: 120px;
+        position: relative;
+        top: 30px;
+        
+    }
+
+    .edit{
+        width: 20px;
+    }
+
+    /* Container */
+    .content{
+        margin-top: -20px;
+        text-align: left;
+        width: 100%;
+        border-top-left-radius :50px;
+        border-top-right-radius : 50px;
+        background-color: white;
+        padding-top: 120px;
+        padding-bottom: 50px;
+        min-height: 350px;
+    }
+
+    /* Label */
+    label{
+        font-size: 18px;
+        color: grey;
+        text-align: left;
+        margin-left: 150px;
+
+    }
+
+    select:focus{
+        border: 1px solid #663BC1;
+    }
+
+    /* Tabel */
+    table{
+        text-align: center;
+        background-color: white;
+        font-size: 20px;
+        border-radius: 5px;
+        width: 1150px;
+    }
+
+    th{
+        background-color: #663BC1;
+        padding: 15px;
+        color: white;
+    }
+
+    td{
+        background-color: #E8E8E8;
+        padding: 15px 50px 15px 50px;
+        color: black;
+    }
+
+
+    /* a */
+    a{
+        text-decoration: none;
+        color: #663BC1;
+
+    }
+
+    /* Footer */
+    footer{
+        background-color: #442A79;
+        width: auto;
+        height: 30px;
+        text-align: center; 
+        padding: 10px;
+    }
+    footer p{
+        color: #A6A6A6;
+        font-size: 14px;
+        padding-top: 5px;
+    }
+
+    /* Tombol */
+    button{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 150px;
+        height: 45px;
+        border-radius: 20px;
+        border: none;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .simpan{
+        /* float: right; */
+        margin-top: 20px;
+        margin-left: 1165px;
+        background-color: #663BC1;
+        color: white;
+    }
+
+    .simpan:hover{
+        background-color: #dadada;
+        color: #663BC1;
+    }
+
+    .logout{
+        margin-top: -70px;
+        margin-right: 10px;
+        float: right;
+        background-color: transparent;
+        color: white;
+    }    
+    .logout .asu {
+        /* display: block; */
+        color: white;
+        width: 40%;
+        height: 65%;
+    }
+    .logout img{
+        width: 20px;
+        top: 3px;
+        left: 7px;
+    }
+    
+    .logout:hover{
+        color: rgb(240, 77, 77);
+        background-color: #2f0982;
+    }    
+    .logout a:hover{
+        /* display: block; */
+        /* height: max-content; */
+        /* border: 1px solid black; */
+    }
+
+    .ubahStatus .Proses{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 150px;
+        height: 45px;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: #663BC1;
+        margin-bottom: 13px;
+    }
+    .ubahStatus{
+        margin-top: 20px;
+        width: 625px;
+    }
+    .Proses{
+        margin-top: -80px;
+        margin-right: 10px;
+    }
+    .Proses a{
+        display: block;
+        color: #663BC1;
+        width: 100%;
+        height: 65%;
+    }  
